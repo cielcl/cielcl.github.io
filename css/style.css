@@ -1,0 +1,47 @@
+body{
+  display: flex;
+  flex-direction: row;
+
+  font-family: 'Gothic A1', sans-serif;
+
+  align-content: center;
+}
+
+#splash{
+  display: flex;
+  flex-direction: row;
+
+  width: 100vw;
+  height: 100vh;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.strip {
+  display: flex;
+  flex-direction: row;
+
+  width: 100vw;
+  height: 5vh;
+
+  justify-content: center;
+
+}
+
+#logo-raw{
+  height: 100%;
+
+  margin-right: 5vw;
+}
+
+h1{
+  font-weight: 900;
+  color: #52bfe4;
+
+  margin: 0;
+
+  height: 5vh;
+  line-height: 6.3vh;
+  font-size: 5.6vh;
+}
