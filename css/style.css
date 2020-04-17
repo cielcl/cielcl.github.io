@@ -66,7 +66,7 @@ a:hover{
   text-decoration-color: #141414;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
 
 #splash{
   flex-direction: column;
