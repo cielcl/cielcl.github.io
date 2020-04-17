@@ -1,47 +1,115 @@
 body{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
-  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Poppins', sans-serif;
 
-  align-content: center;
+  justify-content: center;
+
+  background-color: #141414;
 }
 
 #splash{
+
   display: flex;
   flex-direction: row;
 
   width: 100vw;
   height: 100vh;
 
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: space-between;
 }
 
 .strip {
   display: flex;
   flex-direction: row;
 
-  width: 100vw;
-  height: 5vh;
+  width: 50vw;
+  height: 80vh;
 
   justify-content: center;
 
+  margin: 10vh 0 10vh 15vw;
 }
 
-#logo-raw{
-  height: 100%;
+.nav{
+  margin-right: 10vw;
+  margin-top: 10vh;
 
-  margin-right: 5vw;
+  display: column;
+  flex-direction: row;
+
+  align-items: right;
 }
 
-h1{
-  font-weight: 900;
-  color: #52bfe4;
+h3{
+  font-weight: 400;
+  color: #efefef;
 
   margin: 0;
 
-  height: 5vh;
-  line-height: 6.3vh;
-  font-size: 5.6vh;
+  line-height: 2.8vw;
+  font-size: 2vw;
+}
+
+a{
+  font-weight: 400;
+  color: #efefef;
+
+  margin: 0;
+
+  line-height: 2.8vw;
+  font-size: 2vw;
+}
+
+a:hover{
+  text-decoration-color: #141414;
+}
+
+@media only screen and (max-width: 600px) {
+
+#splash{
+  flex-direction: column;
+  }
+
+
+.strip {
+  display: flex;
+  flex-direction: row;
+
+  width: 80vw;
+  height: 80vh;
+
+  justify-content: center;
+
+  margin: 10vh 0 10vh 10vw;
+
+}
+
+.nav{
+  display: none;
+}
+
+
+h3{
+  font-weight: 400;
+  color: #efefef;
+
+  margin: 0;
+
+  line-height: 8vw;
+  font-size: 5.6vw;
+}
+
+a{
+  font-weight: 400;
+  color: #efefef;
+
+  margin: 0;
+
+  line-height: 8vw;
+  font-size: 5.6vw;
+}
+
 }
